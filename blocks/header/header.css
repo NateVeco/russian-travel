@@ -1,6 +1,10 @@
 .header {
     display: grid;
-    position: relative;
+    grid-template-columns: 176px 60px;
+    gap: 900px;
+    justify-content: center;
+    align-items: end;
+    justify-items: center;
     min-height: 42px;
     max-height: 52px;
     padding: 0;

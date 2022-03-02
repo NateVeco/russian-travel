@@ -1,0 +1,12 @@
+.lead {
+    display: grid;
+    grid-template-rows: 200px 72px 615px 15px;
+    justify-content: center;
+    
+    min-height: 406px;
+    max-height: 1005px;
+    max-width: 985px;
+    min-width: 320px;
+    padding: 0;
+    margin: 0;
+}

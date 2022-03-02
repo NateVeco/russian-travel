@@ -1,14 +1,9 @@
 .page {
-    display: grid;
-    grid-template-columns: ;
-    grid-template-rows: ;
-    grid-template-areas: "header"
-    "content"
-    "footer";
      min-width: 320px;
      max-width: 1280px;
      min-height: 100vh;
      margin: 0 auto;
+     padding-top: 28px;
      background-color: #2A2C2F;
     font-family: "Inter", Arial, Helvetica, serif;
 }

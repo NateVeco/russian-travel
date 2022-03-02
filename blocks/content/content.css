@@ -1,6 +1,6 @@
 .content {
     display: grid;
-grid-template-columns:;
-grid-template-rows:;
-grid-template-areas: "lead""intro" "photo-grid" "places" "cover";
+    justify-content: center;
+    justify-items: center;
+    padding-top: 56px;
 }
