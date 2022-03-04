@@ -1,12 +1,13 @@
 .lead {
     display: grid;
-    grid-template-rows: 200px 72px 615px 15px;
+    grid-template-rows: 200px 72px 685px;
     justify-content: center;
-    
+    gap: 32px;
     min-height: 406px;
-    max-height: 1005px;
-    max-width: 985px;
+    max-height: 1025px;
+    max-width: 984px;
     min-width: 320px;
     padding: 0;
     margin: 0;
 }
+

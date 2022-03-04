@@ -1,0 +1,19 @@
+.place__title {
+    position: relative;
+    align-items: center;
+    width: 476px;
+    height: 76px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    color: white;
+    margin: 0;
+    
+}
+
+
+/* решить как заголовки сделать по макету и что делать с классом который я создала для параграфов*/
+
+
+

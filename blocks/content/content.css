@@ -1,6 +1,8 @@
 .content {
     display: grid;
-    justify-content: center;
+    grid-template-areas: "lead" "intro" "photo-grid" "places" "cover";
+    gap: 92px;
+    align-content: center;
     justify-items: center;
     padding-top: 56px;
 }
