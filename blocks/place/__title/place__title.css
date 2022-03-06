@@ -2,7 +2,7 @@
     position: relative;
     align-items: center;
     width: 476px;
-    height: 76px;
+    min-height: 76px;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -13,7 +13,6 @@
 }
 
 
-/* решить как заголовки сделать по макету и что делать с классом который я создала для параграфов*/
 
 
 

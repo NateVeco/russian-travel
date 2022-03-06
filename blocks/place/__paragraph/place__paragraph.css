@@ -1,4 +1,5 @@
 .place__paragraph {
+    min-height: 116px;
     padding-bottom: 26px;
     margin: 0;
     font-style: normal;
@@ -6,8 +7,11 @@
     font-size: 18px;
     line-height: 163%;
     color: white;
+    
 }
 
 .place__paragraph:last-child {
     padding: 0;
 }
+
+/* расстояние абзацев и кликабельность картинки в ковер и остались медиа запросы и убрать уши. Попробовать переделать ковер чтобы картинка была фоном все такиgi*/

@@ -1,8 +1,9 @@
 .place {
-    display: grid;
+display: grid;
  max-width: 984px;
  grid: repeat(2, 1fr) / repeat(2, 1fr);
  grid-template-rows: min-content;
  gap: 48px;
-
+ align-items: end;
 }
+

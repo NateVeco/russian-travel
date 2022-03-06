@@ -1,0 +1,15 @@
+.cover__background {
+    background: url(../../../images/cover-trains.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 1184px;
+    height: 740px;
+     box-shadow: 0px 0px 100px 52px rgba(0, 0, 0, 0.2) inset;
+    background-color: #2A2C2F;
+    opacity: 0.8; 
+    z-index: 1;
+}
+
+.cover__background:hover {
+    opacity: 0.3;
+}
