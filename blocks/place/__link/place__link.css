@@ -1,4 +1,8 @@
 .place__link {
+    font-family: 'Inter',
+    'Arial',
+    'Helvetica',
+    sans-serif;
     color: white;
     margin: 0;
     font-style: normal;
@@ -6,3 +10,4 @@
     font-size: 18px;
     line-height: 22px;
 }
+

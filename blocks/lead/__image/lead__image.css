@@ -1,7 +1,29 @@
 .lead__image {
     max-width: 985px;
-    min-width: 320px;
-    max-height: 615px;
-    min-height: 200px;
-    padding-top: 32px;
+    padding-top: 64px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        max-width: 928px;
+        min-height: 580px;
+        padding-top: 56px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        max-width: 768px;
+        min-height: 862px;
+        padding-top: 56px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__image {
+        max-width: 320px;
+        min-height: 200px;
+        padding-top: 40px;
+    }
 }

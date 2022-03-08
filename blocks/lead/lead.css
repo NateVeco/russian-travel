@@ -1,13 +1,33 @@
 .lead {
-    display: grid;
-    grid-template-rows: 200px 72px 685px;
-    justify-content: center;
-    gap: 32px;
-    min-height: 406px;
-    max-height: 1025px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 984px;
-    min-width: 320px;
-    padding: 0;
-    margin: 0;
+    padding-top: 56px;
+    
+    margin: auto;
 }
 
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        max-width: 928px;
+        padding-top: 48px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        max-width: 768px;
+        padding-top: 48px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead {
+        max-width: 320px;
+        min-height: 406px;
+        padding-top: 48px;
+
+    }
+}
