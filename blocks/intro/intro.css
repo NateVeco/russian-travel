@@ -1,29 +1,27 @@
 .intro {
-    position: relative;
-    padding: 92px 140px;
-    margin: auto;
-    max-width: 984px;
-     box-sizing: border-box;
+  position: relative;
+  padding: 92px 140px;
+  margin: auto;
+  max-width: 984px;
+  box-sizing: border-box;
 }
 
-
-
 @media screen and (max-width: 1024px) {
-    .intro {
-        max-width: 928px;
-        padding: 92px 35px;
-    }
+  .intro {
+    max-width: 928px;
+    padding: 92px 35px;
+  }
 }
 
 @media screen and (max-width: 768px) {
-    .intro {
-        max-width: 720px;
-        padding: 88px 17px;
-    }
+  .intro {
+    max-width: 720px;
+    padding: 88px 17px;
+  }
 }
 
 @media screen and (min-width: 420px) and (max-width: 760px) {
-    .intro {
-        padding: 64px 24px;
-    }
+  .intro {
+    padding: 64px 24px;
+  }
 }

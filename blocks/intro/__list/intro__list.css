@@ -1,23 +1,19 @@
 .intro__list {
-     font-family: 'Inter',
-     'Arial',
-     'Helvetica',
-     sans-serif;
-     max-width: 690px;
-     min-width: 288px;
-     font-style: normal;
-     font-weight: bold;
-     font-size: 12px;
-     line-height: 18px;
-     color: white;
-     padding: 0;
-     margin: 0;
-     list-style-type: none;
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  max-width: 690px;
+  min-width: 288px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  color: white;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
 
 @media screen and (max-width: 768px) {
-     .intro__list {
-          max-width: 720px;
-     }
+  .intro__list {
+    max-width: 720px;
+  }
 }
-

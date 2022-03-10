@@ -1,32 +1,28 @@
 .place__paragraph {
-    font-family: 'Inter',
-    'Arial',
-    'Helvetica',
-    sans-serif;
-    padding-bottom: 26px;
-    margin: 0;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 29px;
-    color: white;
-
+  font-family: "Inter", "Arial", "Helvetica", sans-serif;
+  padding-bottom: 26px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: white;
 }
 
 .place__paragraph:last-child {
-    padding: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 768px) {
-    .place__paragraph {
-        max-width: 350px;
-        font-size: 16px;
-        line-height: 26px;
-    }
+  .place__paragraph {
+    max-width: 350px;
+    font-size: 16px;
+    line-height: 26px;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 760px) {
-    .place__paragraph {
-        font-size: 18px;
-    }
+  .place__paragraph {
+    font-size: 18px;
+  }
 }
