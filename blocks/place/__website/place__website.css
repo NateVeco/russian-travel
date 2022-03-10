@@ -3,7 +3,7 @@
     flex-direction: column;
     align-self: end;
     width: 456px;
-    max-height: 46px;
+    max-height: 51px;
     margin: 0;
     padding: 0;
 }
@@ -16,9 +16,3 @@
     }
 }
 
-@media screen and (max-width: 320px) {
-    .place__website {
-        max-width: 288px;
-
-    }
-}

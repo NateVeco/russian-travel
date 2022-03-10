@@ -8,21 +8,21 @@
 
 @media screen and (max-width: 1024px) {
     .photo-grid__item {
-        max-width: 928px;
-        max-height: 942px;
+        max-width: 300px;
+        max-height: 225px;
     }
 }
 
-@media screen and (max-width: 768px) {
+ @media screen and (max-width: 768px) {
     .photo-grid__item {
         max-width: 720px;
         max-height: 264px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 420px) and (max-width: 760px) {
     .photo-grid__item {
-        max-width: 288px;
-        max-height: 218px;
+        max-width: 100%;
+        max-height: 348px;
     }
 }
