@@ -3,8 +3,9 @@
   max-width: 984px;
   grid-template-columns: 460px 1fr;
   grid-template-rows: min-content;
-  gap: 48px 40px;
-  margin: auto;
+  gap: 50px;
+  margin: 0 auto;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -24,10 +25,10 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 760px) {
+@media screen and (min-width: 320px) and (max-width: 740px) {
   .place {
     grid-template-columns: 1fr;
-    gap: 28px;
+    gap: 33px;
     max-width: 100%;
   }
 }

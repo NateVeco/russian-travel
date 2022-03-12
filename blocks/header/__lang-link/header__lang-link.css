@@ -15,13 +15,10 @@
   padding: 0;
 }
 
-.header__lang-link::after {
-  text-decoration: underline;
-}
-
-@media screen and (min-width: 320px) and (max-width: 760px) {
+@media screen and (min-width: 320px) and (max-width: 740px) {
   .header__lang-link {
     max-width: 30px;
+    font-size: 18px;
     line-height: 20px;
   }
 }
